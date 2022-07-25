@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
 import speech_recognition as sr
 import pyttsx3
 import pywhatkit
@@ -17,19 +14,11 @@ import os
 import time
 import re
 
-
-# In[3]:
-
-
 engine = pyttsx3.init()
 voices = engine.getProperty("voices")
 
 engine.setProperty("voice", voices[0].id)
 engine.setProperty("rate", 200)
-
-
-# In[22]:
-
 
 alphabets= "([A-Za-z])"
 prefixes = "(Mr|St|Mrs|Ms|Dr)[.]"
@@ -177,10 +166,3 @@ def SideKick():
 
 WishMyMaster()
 SideKick()
-
-
-# In[ ]:
-
-
-
-
