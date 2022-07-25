@@ -1,1 +1,1 @@
-SideKick-The-Voice-Assistant is a voice assistant with male voice created using python.
+SideKick is a voice assistant with male voice created using python.
